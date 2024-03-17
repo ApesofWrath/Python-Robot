@@ -1,0 +1,18 @@
+# Ignore  byte-code for robot & extra robot modules
+/__pycache__
+# Ignore byte-code from components, modules, and constants
+components/__pycache__
+extras/__pycache__
+eventmanager/__pycache__
+hardware/__pycache__
+autonomous/__pycache__
+
+# Ignore tests and the pytest cache
+/tests
+/.pytest_cache
+
+# Ignore python virtual environment
+/.venv
+
+# Ignore limelight source-code
+/limelightlib-python

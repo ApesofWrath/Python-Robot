@@ -1,0 +1,89 @@
+{
+	"//": "TODO: Re-calculate/change values of constants to match new robot (and add entries in wiki to document them)",
+
+	"HOSTNAME": 668,
+	
+	"CONTROLLER_CONSTANTS": {
+	
+		"CONTROLLER_MAIN_ID": 0,
+		"CONTROLLER_AUX_ID": 1,
+		"CONTROLLER_RATE_LIMIT": 3,
+
+		"MACROS": {
+			"START": "zeroGyro",
+			"A": "",
+			"B": "",
+			"X": "",
+			"Y": "",
+			"L_BUMPER": "",
+			"R_BUMPER": "",
+			"L_STICK": "",
+			"R_STICK": ""
+		}
+	},
+
+	"MOTOR_CONSTANTS": {
+
+		"MOTOR_DRIVE_FRONT_LEFT_ID": 5,
+		"MOTOR_TURN_FRONT_LEFT_ID": 6,
+		"ENCODER_TURN_FRONT_LEFT_ID": 11,
+
+		"MOTOR_DRIVE_FRONT_RIGHT_ID": 1,
+		"MOTOR_TURN_FRONT_RIGHT_ID": 2,
+		"ENCODER_TURN_FRONT_RIGHT_ID": 9,
+
+		"MOTOR_DRIVE_REAR_LEFT_ID": 7,
+		"MOTOR_TURN_REAR_LEFT_ID": 8,
+		"ENCODER_TURN_REAR_LEFT_ID": 12,
+
+		"MOTOR_DRIVE_REAR_RIGHT_ID": 3,
+		"MOTOR_TURN_REAR_RIGHT_ID": 4,
+		"ENCODER_TURN_REAR_RIGHT_ID": 10
+	},
+
+	"OFFSETS": {
+
+		"FRONT_RIGHT": -40.429,
+		"REAR_RIGHT": 66.181,
+		"FRONT_LEFT": -94.921,
+		"REAR_LEFT": -1.142
+	},
+
+	"CALCULATIONS": {
+
+		"FINAL_DRIVE_RATIO": 2430,
+		"FINAL_TURN_RATIO": 0.0466666667,
+		"WHEEL_CIRCUMFERENCE": 11.9380521,
+		"MODULE_MAX_SPEED": 16.3,
+		"CHASSIS_MAX_SPEED": 16.3,
+
+		"MODULE_MAX_ANGULAR_VELOCITY": 12.5663706,
+		"MODULE_MAX_ANGULAR_ACCELERATION": 25.1327412,
+
+		"MOTOR_MAX_OUTPUT": 0.5,
+		"MOTOR_DEADBAND": 0.1
+	},
+
+	"PATHPLANNER_CONSTANTS": {
+		"AUTONOMOUS_COMMANDS": {
+			"1": "",
+			"2": "",
+			"3": ""
+		},
+
+		"TRANSLATION_PID_CONSTANTS": [
+			0.5,
+			0.0,
+			0.0
+		],
+
+		"ROTATION_PID_CONSTANTS": [
+			0.0,
+			0.0,
+			0.0
+		],
+
+		"MAX_SPEED": 4.5,
+		"DRIVE_BASE_RADIUS": 13.625
+	}
+}
