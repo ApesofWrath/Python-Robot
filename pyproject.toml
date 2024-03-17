@@ -1,7 +1,7 @@
 #
 # Use this configuration file to control what RobotPy packages are installed on your RoboRIO
-# NOTE: Extra module `limelightlib-python` cannot be added to toml file (for some reason). Please pip install it with:
-#   - pip install limelightlib-python
+# NOTE: Extra module `limelightlib-python` cannot be added to toml file (for some reason). Read wiki on installing:
+#   limelightlib-python
 #
 
 [tool.robotpy]
@@ -13,7 +13,7 @@ robotpy_version = "2024.3.2.1"
 robotpy_extras = [
     "navx",
     "rev",
-    "pathplannerlib"
+    "pathplannerlib",
 ]
 
 # Other pip packages to install
